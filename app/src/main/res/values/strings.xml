@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">刘亦菲</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fairy">刘亦菲</string>
+    <string name="user">我的</string>
+
+    <string name="insert">插入</string>
+
+</resources>

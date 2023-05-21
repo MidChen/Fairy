@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fairy">
+
+    <fragment
+        android:id="@+id/fairy"
+        android:name="com.cc.fairy.view.fragment.FairyFragment"
+        android:label="@string/fairy"
+        tools:layout="@layout/fragment_fairy" />
+
+    <fragment
+        android:id="@+id/user"
+        android:name="com.cc.fairy.view.fragment.UserFragment"
+        android:label="@string/user"
+        tools:layout="@layout/fragment_user" />
+
+</navigation>
